@@ -1,6 +1,7 @@
 ﻿using PCPS.AbstractClass;
 using PCPS.Constructor;
 using PCPS.GetSet;
+using PCPS.NestedForLoop;
 using PCPS.PassByReference;
 using PCPS.PassByValue;
 using PCPS.Protected;
@@ -14,29 +15,29 @@ namespace PCPS
         {
             // Uncomment the lines to run each section. Go through each section in ascending order
 
-           // 1.Pass By Value Examples
-           // ValueTypeExample.Run();
-           // ReferenceTypeExample.Run();
+            // 1.Pass By Value Examples
+            // ValueTypeExample.Run();
+            // ReferenceTypeExample.Run();
 
-           // 2.Pass By Reference Examples
-           // ValueTypeRefExample.Run();
-           // ReferenceTypeRefExample.Run();
+            // 2.Pass By Reference Examples
+            // ValueTypeRefExample.Run();
+            // ReferenceTypeRefExample.Run();
 
-           // 3.VariableTypes Example
-           // VariableTypesExample();
+            // 3.VariableTypes Example
+            // VariableTypesExample();
 
-           // 4.Get Set Example
+            // 4.Get Set Example
 
-           //GetSetExample();
+            //GetSetExample();
 
-           // 5.Constructor Example
-           // ConstructorExample();
+            // 5.Constructor Example
+            // ConstructorExample();
 
-           // 6.Protected Example
-           //Human human = new Human();
-           // human.publicNumber = 16;
-           // human.DisplayPublicNumber();
-           // human.protectedNumber = 20; // only accessible within the class and derived classes
+            // 6.Protected Example
+            //Human human = new Human();
+            // human.publicNumber = 16;
+            // human.DisplayPublicNumber();
+            // human.protectedNumber = 20; // only accessible within the class and derived classes
 
 
             //Student student = new Student();
@@ -45,6 +46,9 @@ namespace PCPS
             // 7. Abstract Class Example
             //AbstractClassExample();
             //Shape shape = new Shape(); // cannot create instance of abstract class
+
+            // 8. Nested For Loop Example
+            NestedForLoopExample.Run();
         }
 
         public static void AbstractClassExample()
